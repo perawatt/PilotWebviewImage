@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebViewDefault.Views.IndexPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Clicked="Button_Clicked" Text="Load and Open"/>
+            <Button Clicked="Button2_Clicked" Text="Load and Navigate"/>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

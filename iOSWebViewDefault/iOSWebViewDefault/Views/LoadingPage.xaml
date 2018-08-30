@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iOSWebViewDefault.Views.LoadingPage"
+             Title="Loading">
+    <ContentPage.Content>
+        <Grid>
+            <WebView x:Name="hybrid" BackgroundColor="#01abdf" HeightRequest="75" WidthRequest="175" Source="https://www.youtube.com/" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
